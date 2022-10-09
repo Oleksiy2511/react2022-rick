@@ -2,3 +2,4 @@
 // https://rickandmortyapi.com/
 //     https://rickandmortyapi.com/api/character
 //         Створити 6 персонажів
+
