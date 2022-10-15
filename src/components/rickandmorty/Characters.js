@@ -7,8 +7,8 @@ function Characters() {
 
   fetch(`https://rickandmortyapi.com/api/character`)
       .then(value => value.json())
-      .then(value => {
-          setCharacters(value.results)
+      .then(value => {setCharacters(value.results)
+          setCharacters(value.results.slice(0,6))
       })
 
     return (
