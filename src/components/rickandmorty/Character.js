@@ -3,11 +3,16 @@
 //     https://rickandmortyapi.com/api/character
 //         Створити 6 персонажів
 
-import React from 'react';
+
+import characters from "./Characters";
 
 function Character(props) {
+    const {character} = props;
     return (
-        <div></div>
+        <div >
+            <h2>{character.id} -- {character.name}</h2>
+            <p>{character.status} -- {character.species}</p>
+        </div>
     );
 }
 
